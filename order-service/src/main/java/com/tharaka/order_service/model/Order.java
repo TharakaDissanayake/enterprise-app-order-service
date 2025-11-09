@@ -1,6 +1,5 @@
 package com.tharaka.order_service.model;
 
-import ch.qos.logback.core.joran.spi.NoAutoStart;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -10,7 +9,7 @@ import lombok.NoArgsConstructor;
 import java.math.BigDecimal;
 
 @Entity
-@Table(name="t_orders")
+@Table(name = "t_orders")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
