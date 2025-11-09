@@ -33,5 +33,6 @@ build/
 .vscode/
 
 ###Flyway databases###
-./mysql
+**/mysql/**
+
 
